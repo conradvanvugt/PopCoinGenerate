@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta http-equiv="Cache-control" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<link rel="stylesheet" href="css/stylesubscribe.css">
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+</head>
+<body>
+<img src="images/popcoinmedium.png" alt="popcoin logo" id="logo">
+ <div class="row" id="form">
+    <form class="col s12" onsubmit="stuur()">
+	      <div class="row">
+        <div class="col s12">
+		
+		<p style="text-align:center">Hou me op de hoogte:</p>
+		
+		        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="input-field inline col s12">
+            <input id="email" type="email" class="validate" required="" aria-required="true">
+            <label for="email" data-error="wrong" data-success="">Email</label>            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+         <div class="input-field inline">
+	          <button class="btn waves-effect blue" id="send" type="button" name="action">Subscribe
+			   <i class="material-icons right">send</i>
+			  </button>
+            </div>
+          <div class="input-field inline" id="decline">
+		    <a class="waves-effect red btn" type="button" name="action" >Nee bedankt</a>		    
+          </div>
+           
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/subscr.js"></script>
+</body>
+</html>

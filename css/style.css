@@ -1,0 +1,34 @@
+body{
+	 text-align:center;
+	 font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+iframe{
+	margin: 0 auto;
+}
+.preloader-wrapper{
+	margin-top:30px;
+}
+#info{
+display:none;	
+}
+
+#logo {
+  margin-top:5px;
+  height: 30%;
+  width: auto;
+  
+  animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
