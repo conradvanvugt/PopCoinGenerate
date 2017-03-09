@@ -10,7 +10,7 @@ $('#send').click(function(){
   data:{ email : mail }, 
   dataType: 'text',
   success: function(data) {
-	  	//window.location.replace("success.html");
+	  	window.location.replace("success.html");
   }
 });
 			

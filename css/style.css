@@ -23,7 +23,6 @@ display:none;
     animation-duration: 1s;
     animation-fill-mode:forwards;
 }
-
 @keyframes fadeIn {
     0% {
         opacity: 0;

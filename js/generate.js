@@ -56,7 +56,7 @@ $(".content").empty();
   type: "POST",
   url: 'http://51.15.42.16/insertbedrag.php',
   crossDomain: true,
-  data:{ bedrag : Val, beschrijving : Beschr  }, 
+  data:{ bedrag : Val, beschrijving : splitstr2[1]  }, 
   dataType: 'text',
   success: function(data) {
 	  	window.location.replace("subscribe.html");
